@@ -1,26 +1,107 @@
 /* gravity forms styling */
+
 .gform_wrapper {
-	.gfield.hide-label label {
-		display: none;
+
+	form.title-big {
+		.gform_heading {
+			.gform_title {
+				text-align: center;
+				font-size: 2.0em;
+				color: #323232;
+			}
+			.gform_description {
+				text-align: center;
+			}
+		}
 	}
+
+	// all fields
+	.gfield {
+		.ginput_container {
+			input[type=text],
+			textarea {
+				 font-size: .8em!important;;
+			}
+		}
+		.gfield_label {
+			font-weight: normal;
+		}
+	}
+	// hide the labels.... use placeholder
+	.gfield.hide-label label,
+	.gfield.hide-label .ginput_complex.ginput_container label {
+		display: none!important;
+	}
+	// center the placeholder
+	.gfield.placeholder-center {
+		.ginput_container {
+			input, textarea {
+				 text-align: center;
+			}
+		}
+	}
+	// light background
+	.gfield.gfr_light_bkg {
+		background-color: white;
+		margin-right: 16px;
+		padding-right: 0px;
+		padding-left: 10px;
+		padding-top: 6px;
+	}
+	.gfield.gf_list_inline  {
+		.ginput_container {
+			ul.gfield_checkbox {
+				li {
+					label {
+						max-width: max-content;
+					}
+				}
+			}
+		}
+	}
+	form.form-close { // tight stuff up....
+		.gform_heading {
+			margin-bottom: 0px;
+			.gform_title {
+				margin-bottom: 0px;
+				padding-bottom: 0px;
+			}
+			.gform_description {
+				margin-bottom: 0px;
+			}
+		}
+		.gfield,
+		.gfield .ginput_container.ginput_container_checkbox {
+			margin-top: 0px;
+			.gfield_checkbox {
+				li {
+					margin-bottom: 0px!important;
+				}
+			}
+		}
+		.gform_footer  {
+			padding-top: 0px;
+			margin-top: 0px;
+		}
+	} // form-close class
+
 	.gform_footer {
 
 		input[type=submit] { //  Make submit look like buttons on the site.
 			float: right;
-			color: $button-color;
-			border: 3px solid $iec-lime!important;
-		    padding: 6px 20px;
-		    border-width: 0px;
-		    font-size: 20px!important;
-		    text-align: center;
-		    cursor: pointer;
+			color: $mcmullen-taupe;
+			border: 1px solid white;
+		  padding: 6px 20px;
+		  //font-size: 20px!important;
+		  text-align: center;
+		  cursor: pointer;
 			background-color: $button-bkg;
+			width: 50%!important;
 			//line-height: 1.7em;
 			}
 			input[type=submit]:hover {
-				background-color: $button-hover-bkg;
+				background-color: $macmullen-orange;
 				color: $button-hover-color;
 			}
 	} // gform footer
 } // gform wrapper
-

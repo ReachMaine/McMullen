@@ -1,17 +1,22 @@
 /* basic css stuff */
 
-#footer-bottom {
-  #footer-info {
-    width: 100%;
-    .reach-customer-copyright {
-      float: left;
-    }
-    .reach-branding{
-      float: right;
+footer {
+    .reach-branding { // div
+      text-align: right;
       a:before {
         content: url('images/reach-favicon.png');
         padding-right: 4px;
       }
+      a {
+        color: $mcmullen-taupe;
+      }
+      .reachEA {
+        color: $reach-orange;
+        font-style: italic;
+      }
     }
-  }
 }
+/* <div class="reach-branding">
+  <a target="_blank" href="https://www.reachmaine.com"> R<span class="reachEA">EA</span>CH Maine
+  </a>
+</div> */

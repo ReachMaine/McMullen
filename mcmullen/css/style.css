@@ -9,15 +9,74 @@
 /* ----------- Colors ---------------------------------- */
 /* ----------- end Colors ----------- */
 /* basic css stuff */
-#footer-bottom #footer-info {
-  width: 100%; }
-  #footer-bottom #footer-info .reach-customer-copyright {
-    float: left; }
-  #footer-bottom #footer-info .reach-branding {
-    float: right; }
-    #footer-bottom #footer-info .reach-branding a:before {
-      content: url("images/reach-favicon.png");
-      padding-right: 4px; }
+footer .reach-branding {
+  text-align: right; }
+  footer .reach-branding a:before {
+    content: url("images/reach-favicon.png");
+    padding-right: 4px; }
+  footer .reach-branding a {
+    color: #ede9e0; }
+  footer .reach-branding .reachEA {
+    color: #ffa73d;
+    font-style: italic; }
+
+/* <div class="reach-branding">
+  <a target="_blank" href="https://www.reachmaine.com"> R<span class="reachEA">EA</span>CH Maine
+  </a>
+</div> */
+/* gravity forms styling */
+.gform_wrapper form.title-big .gform_heading .gform_title {
+  text-align: center;
+  font-size: 2.0em;
+  color: #323232; }
+.gform_wrapper form.title-big .gform_heading .gform_description {
+  text-align: center; }
+.gform_wrapper .gfield .ginput_container input[type=text],
+.gform_wrapper .gfield .ginput_container textarea {
+  font-size: 0.8em !important; }
+.gform_wrapper .gfield .gfield_label {
+  font-weight: normal; }
+.gform_wrapper .gfield.hide-label label,
+.gform_wrapper .gfield.hide-label .ginput_complex.ginput_container label {
+  display: none !important; }
+.gform_wrapper .gfield.placeholder-center .ginput_container input, .gform_wrapper .gfield.placeholder-center .ginput_container textarea {
+  text-align: center; }
+.gform_wrapper .gfield.gfr_light_bkg {
+  background-color: white;
+  margin-right: 16px;
+  padding-right: 0px;
+  padding-left: 10px;
+  padding-top: 6px; }
+.gform_wrapper .gfield.gf_list_inline .ginput_container ul.gfield_checkbox li label {
+  max-width: max-content; }
+.gform_wrapper form.form-close .gform_heading {
+  margin-bottom: 0px; }
+  .gform_wrapper form.form-close .gform_heading .gform_title {
+    margin-bottom: 0px;
+    padding-bottom: 0px; }
+  .gform_wrapper form.form-close .gform_heading .gform_description {
+    margin-bottom: 0px; }
+.gform_wrapper form.form-close .gfield,
+.gform_wrapper form.form-close .gfield .ginput_container.ginput_container_checkbox {
+  margin-top: 0px; }
+  .gform_wrapper form.form-close .gfield .gfield_checkbox li,
+  .gform_wrapper form.form-close .gfield .ginput_container.ginput_container_checkbox .gfield_checkbox li {
+    margin-bottom: 0px !important; }
+.gform_wrapper form.form-close .gform_footer {
+  padding-top: 0px;
+  margin-top: 0px; }
+.gform_wrapper .gform_footer input[type=submit] {
+  float: right;
+  color: #ede9e0;
+  border: 1px solid white;
+  padding: 6px 20px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #305630;
+  width: 50% !important; }
+.gform_wrapper .gform_footer input[type=submit]:hover {
+  background-color: #F7841E;
+  color: #FFF; }
 
 #footer-bottom #footer-info .reach-customer-copyright {
   float: left; }
