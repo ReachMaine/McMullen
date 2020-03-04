@@ -12,6 +12,34 @@
 @import "partials/basics";
 @import "partials/gform";
 
+#main-header {
+  background-image: url(./images/McMullen-green-strip.png);
+  background-position: top;
+  background-repeat: repeat-x;
+  .logo_container {
+    height: initial;
+  }
+  //main menu
+  #top-menu-nav {
+    #top-menu {
+      li a { // all menu links (including submen)
+        font-weight: 500;
+      }
+      ul.sub-menu {
+        top: 30px; // make flyout menu start under menu
+        li {
+          a {
+            padding-left: 0px;
+            padding-right: 0px;
+            line-height: 1.2em;
+          }
+        }
+      }
+    }
+  }
+
+
+}
 
 #footer-bottom {
   #footer-info {

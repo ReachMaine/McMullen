@@ -78,6 +78,21 @@ footer .reach-branding {
   background-color: #F7841E;
   color: #FFF; }
 
+#main-header {
+  background-image: url(./images/McMullen-green-strip.png);
+  background-position: top;
+  background-repeat: repeat-x; }
+  #main-header .logo_container {
+    height: initial; }
+  #main-header #top-menu-nav #top-menu li a {
+    font-weight: 500; }
+  #main-header #top-menu-nav #top-menu ul.sub-menu {
+    top: 30px; }
+    #main-header #top-menu-nav #top-menu ul.sub-menu li a {
+      padding-left: 0px;
+      padding-right: 0px;
+      line-height: 1.2em; }
+
 #footer-bottom #footer-info .reach-customer-copyright {
   float: left; }
 #footer-bottom #footer-info .reach-branding {
