@@ -20,3 +20,25 @@ footer {
   <a target="_blank" href="https://www.reachmaine.com"> R<span class="reachEA">EA</span>CH Maine
   </a>
 </div> */
+// trying from example
+.et-zoom-in.et_pb_image:hover img,
+.et-zoom-in .et_pb_image_wrap:hover img,
+.et-zoom-in a:hover img {
+    transform: scale(1.1);
+    transition: all 1s 0s ease;
+}
+
+.et-zoom-in,
+.et-zoom-in a,
+.et-zoom .et_pb_image_wrap   {
+    overflow: hidden;
+}
+
+.et-zoom-in.et_pb_image img,
+.et-zoom-in .et_pb_image_wrap img,
+.et-zoom-in a img {
+    transition: all 1s 0s ease;
+}
+.et-zoom-in {
+
+}
