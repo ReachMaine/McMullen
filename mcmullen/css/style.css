@@ -9,6 +9,11 @@
 /* ----------- Colors ---------------------------------- */
 /* ----------- end Colors ----------- */
 /* basic css stuff */
+.mmls-center-blurb .et_pb_blurb_content .et_pb_blurb_container {
+  vertical-align: middle; }
+  .mmls-center-blurb .et_pb_blurb_content .et_pb_blurb_container .et_pb_module_header {
+    padding-bottom: 0px; }
+
 footer .reach-branding {
   text-align: right; }
   footer .reach-branding a:before {
@@ -134,6 +139,12 @@ footer .reach-branding {
     .rmm-row-stackorder .rmm-first-on-mobile {
       -webkit-order: 1;
       order: 1; } }
+@media only screen and (max-width: 980px) {
+  #main-header #mobile_menu {
+    background-color: rgba(48, 86, 48, 0.9);
+    border-top-color: #ede9e0; }
+    #main-header #mobile_menu li a {
+      color: #white; } }
 @media only all and (max-width: 767px) {
   #main-footer #footer-widgets .footer-widget .fwidget.et_pb_widget {
     width: 100%;

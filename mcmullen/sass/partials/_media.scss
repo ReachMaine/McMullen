@@ -21,8 +21,17 @@
 		}
 	}
 }
-@media only screen and (max-width: 960px) {
-
+@media only screen and (max-width: 980px) {// mobile nav shows here.
+  // mobile menu colors...
+  #main-header {
+   #mobile_menu {
+      background-color: $mobile-menu-bkg;
+      border-top-color: $mcmullen-taupe;
+      li a {
+        color: #white;
+      }
+    }
+  }
 }
 @media only all  and (max-width: 767px){ // mobile
   // center footer widgets at mobile

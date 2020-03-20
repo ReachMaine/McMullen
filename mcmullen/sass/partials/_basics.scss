@@ -1,5 +1,15 @@
 /* basic css stuff */
+.mmls-center-blurb {
+  .et_pb_blurb_content {
+    .et_pb_blurb_container {
+      vertical-align: middle;
+      .et_pb_module_header {
+        padding-bottom: 0px;
+      }
+    }
 
+  }
+}
 footer {
     .reach-branding { // div
       text-align: right;
