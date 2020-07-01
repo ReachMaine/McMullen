@@ -48,8 +48,7 @@ footer .reach-branding {
 /* gravity forms styling */
 .gform_wrapper form.title-big .gform_heading .gform_title {
   text-align: center;
-  font-size: 2.0em;
-  color: #323232; }
+  font-size: 2.0em; }
 .gform_wrapper form.title-big .gform_heading .gform_description {
   text-align: center; }
 .gform_wrapper .gfield .ginput_container input[type=text],
@@ -60,6 +59,8 @@ footer .reach-branding {
 .gform_wrapper .gfield.hide-label label,
 .gform_wrapper .gfield.hide-label .ginput_complex.ginput_container label {
   display: none !important; }
+.gform_wrapper .gfield.hide-label .ginput_complex.ginput_container span.name_last {
+  padding-top: 0px; }
 .gform_wrapper .gfield.placeholder-center .ginput_container input, .gform_wrapper .gfield.placeholder-center .ginput_container textarea {
   text-align: center; }
 .gform_wrapper .gfield.gfr_light_bkg {
@@ -68,6 +69,11 @@ footer .reach-branding {
   padding-right: 0px;
   padding-left: 10px;
   padding-top: 6px; }
+@media only all and (max-width: 640px) {
+  .gform_wrapper .gfield.gfr_light_bkg.gf_list_inline {
+    margin-right: 0px;
+    margin-top: 10px;
+    padding-bottom: 6px; } }
 .gform_wrapper .gfield.gf_list_inline .ginput_container ul.gfield_checkbox li label {
   max-width: max-content; }
 .gform_wrapper form.form-close .gform_heading {

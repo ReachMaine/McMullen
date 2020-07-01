@@ -7,7 +7,7 @@
 			.gform_title {
 				text-align: center;
 				font-size: 2.0em;
-				color: #323232;
+				//color: #323232;
 			}
 			.gform_description {
 				text-align: center;
@@ -32,6 +32,11 @@
 	.gfield.hide-label .ginput_complex.ginput_container label {
 		display: none!important;
 	}
+	.gfield.hide-label .ginput_complex.ginput_container {
+		span.name_last {
+			padding-top: 0px;
+		}
+	}
 	// center the placeholder
 	.gfield.placeholder-center {
 		.ginput_container {
@@ -47,6 +52,13 @@
 		padding-right: 0px;
 		padding-left: 10px;
 		padding-top: 6px;
+	}
+	@media only all  and (max-width: 640px){ // mobile
+		.gfield.gfr_light_bkg.gf_list_inline   {
+			margin-right: 0px;
+			margin-top: 10px;
+			padding-bottom:  6px;
+		}
 	}
 	.gfield.gf_list_inline  {
 		.ginput_container {
